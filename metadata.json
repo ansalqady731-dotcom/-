@@ -1,0 +1,6 @@
+{
+  "name": "مراقب الإنترنت الذكي",
+  "description": "تطبيق متطور لمراقبة استهلاك باقة الإنترنت وإدارة الأجهزة المتصلة بمودم ZTE MF293N",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

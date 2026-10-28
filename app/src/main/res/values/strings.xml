@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">مراقب الإنترنت الذكي</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_devices">الأجهزة</string>
+    <string name="nav_stats">الإحصائيات</string>
+    <string name="nav_settings">الإعدادات</string>
+    
+    <string name="modem_model">ZTE MF293N</string>
+    <string name="default_ip">192.168.0.1</string>
+    <string name="status_connected">متصل بالمودم</string>
+    <string name="status_disconnected">غير متصل بالمودم</string>
+    <string name="status_checking">جاري فحص الاتصال…</string>
+    <string name="status_local_mode">الوضع المحلي (بيانات محفوظة)</string>
+    
+    <string name="quota_total">إجمالي الباقة</string>
+    <string name="quota_used">الاستهلاك المسجل</string>
+    <string name="quota_remaining">المتبقي من الباقة</string>
+    <string name="quota_consumption_rate">نسبة الاستهلاك</string>
+    <string name="speed_download">سرعة التنزيل</string>
+    <string name="speed_upload">سرعة الرفع</string>
+    <string name="connected_devices_count">الأجهزة المتصلة</string>
+    <string name="daily_average">متوسط الاستهلاك اليومي</string>
+    <string name="forecast_depletion">الموعد المتوقع لنفاد الباقة</string>
+    
+    <string name="btn_refresh">تحديث البيانات</string>
+    <string name="btn_test_connection">اختبار الاتصال</string>
+    <string name="btn_reset_cycle">إعادة تعيين دورة الباقة</string>
+    <string name="btn_save">حفظ الإعدادات</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_confirm">تأكيد</string>
+</resources>
