@@ -17,13 +17,13 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Sort
 import androidx.compose.material.icons.filled.Computer
 import androidx.compose.material.icons.filled.DeviceUnknown
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.PhoneAndroid
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Sort
 import androidx.compose.material.icons.filled.Tv
 import androidx.compose.material.icons.filled.Wifi
 import androidx.compose.material3.AlertDialog
@@ -125,7 +125,7 @@ fun DevicesScreen(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
-                imageVector = Icons.Default.Sort,
+                imageVector = Icons.AutoMirrored.Filled.Sort,
                 contentDescription = "ترتيب",
                 tint = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.size(18.dp)

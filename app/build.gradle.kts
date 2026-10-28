@@ -137,8 +137,13 @@ dependencies {
   androidTestImplementation(libs.androidx.espresso.core)
   androidTestImplementation(libs.androidx.junit)
   androidTestImplementation(libs.androidx.runner)
-  debugImplementation(libs.androidx.compose.ui.test.manifest)
   debugImplementation(libs.androidx.compose.ui.tooling)
+  debugImplementation(libs.androidx.compose.ui.test.manifest)
   "ksp"(libs.androidx.room.compiler)
-  "ksp"(libs.moshi.kotlin.codegen)
+  // "ksp"(libs.moshi.kotlin.codegen)
+}
+
+// Disable KSP for unit test tasks to avoid headless CI AWT event queue conflicts
+tasks.matching { it.name.contains("UnitTest", ignoreCase = true) && it.name.startsWith("ksp") }.configureEach {
+  enabled = false
 }
